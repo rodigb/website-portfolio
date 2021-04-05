@@ -1,0 +1,114 @@
+
+.modalcontainer{
+
+    
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+     
+  
+   
+
+}
+
+.modalbox{
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    border: black 1px solid;
+    color: #6d76f7;
+    text-decoration: none;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    overflow: none;
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1224px) {
+    .modalbox{
+    width: 310px;
+    height: 340px;
+    }
+
+    .left-column{
+        opacity: 0;;
+    }}
+
+    
+ 
+
+.Modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.modalbuttons{
+    background: none;
+    border: none;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin: 10px;
+    outline: none;
+    opacity: 80%;
+    border-radius: 2%;
+     
+    
+}
+
+.modalbuttons:hover {
+    cursor: pointer;
+    opacity: 100%;
+    transition: 0.2s ease-out;
+    
+}
+
+.closebtn{
+
+    float: right;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+     
+}
+
+.closebtn:hover{
+
+    background-color: white;
+    transition: 0.2s ease-out;
+    color: black;
+     
+}
+.project1-img{
+    float: left;
+    top: 0;
+}
+
+ 
+
+.project1-img{
+    max-width: auto;
+    max-height: auto;
+}
+
+
+ 
+  
+ 
+  
+  
