@@ -52,7 +52,7 @@ function App() {
        <Route exact path = "/projectlink5" component = {Project5Page} />
        <Route exact path = "/projectlink6" component = {Project6Page} />
         
-       <Redirect to = "/404"/>
+        
       
 
        </Switch>
